@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!--     <style>
+        :root {
+            --primary-color: #0077aa;
+            --hover-color: #00C6DE;
+            --text-color: #333;
+            --border-color: #e2e2e2;
+        }
+
+        body {
+            width: 300px;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            margin: 0;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        #details_container {
+            display: none;
+            text-align: right;
+            white-space: pre-wrap;
+            /* Omogućava prelom novih redova */
+            font-family: monospace;
+            max-height: 150px;
+            overflow-y: auto;
+            border-top: 1px solid #e2e2e2;
+            margin-top: 5px;
+            padding-top: 5px;
+        }
+
+        .show {
+            display: block !important;
+        }
+
+        #details-btn {
+            cursor: pointer;
+        }
+
+        #details-btn:hover {
+            color: var(--hover-color);
+        }
+
+        hr {
+            border-style: solid;
+            border-width: 1px;
+            color: var(--border-color);
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id='message'>
+        <!-- <p>Time: &nbsp; <span id="total"></span></p> -->
+
+        <div class="summary-item">
+            <span class="label">Total time:</span>
+            <span id="total" class="value"></span>
+        </div>
+
+        <!-- <p>Days: &nbsp; <span id="days"></span></p> -->
+
+        <div class="summary-item">
+            <span class="label">Work days:</span>
+            <span id="days" class="value"></span>
+        </div>
+
+        <!-- <hr>
+        <p style="font-size: 1.7em;">Bilans: &nbsp; <span id="bilans"></span></p> -->
+
+        <div class="balance summary-item">
+            <span class="label">Bilans:</span>
+            <span id="bilans" class="value"></span>
+        </div>
+    </div>
+
+    <!-- <div id="btn-container">
+        <span id="details-btn">Show Details</span>
+    </div> -->
+
+    <div id="details-btn" class="details-toggle"> Show details </div>
+
+    <div id="details_container" class="details-container"> </div>
+
+    <script src="popup.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
