@@ -1,6 +1,6 @@
 # Work Hours Calculator (Chrome extension)
 
-A browser extension that calculates working time for [https://portal.link-group.eu/User/Login](https://portal.link-group.eu/): start/end times in the tracked page.
+A browser extension that calculates working time for [https://portal.link-group.eu/](https://portal.link-group.eu/) : start/end times in the tracked page.
 
 ## Features
 - Data is showed in the browser popup window. No data leaves the machine.
